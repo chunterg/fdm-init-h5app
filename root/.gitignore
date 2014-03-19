@@ -1,1 +1,10 @@
-/node_modules/
+.DS_Store
+**\.sass-cache
+.tmp
+*.iml
+.idea
+.nodemonignore
+node_modules
+doc
+index.html.dump
+build

@@ -1,27 +1,16 @@
-<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="gbk">
-  <title>{%= title || name %} Demo</title>
-  <link rel="stylesheet" href="../src/{%= name %}.css" media="screen">
-  <script src="http://style.c.aliimg.com/fdevlib/js/lofty/port/lofty.js"></script>  
-    
-  <!-- PC 页面上引入 jQuery 基础库 -->
-  <script src="http://style.c.aliimg.com/fdevlib/js/gallery/jquery/jquery-latest.js"></script>
-    
-  <!-- 移动页面上使用 appframework 基础库 替代 jQuery -->
-  <!-- <script src=" http://style.c.aliimg.com/fdevlib/js/gallery/appframework/appframework.js"></script> -->
-    
-  
-  <!--页面唯一的入口js-->
-  <script src="../src/{%= name %}.js"></script>
-</head>
-<body>
-  View the console
-  <script type="text/javascript">
-    define(['{%= name %}'],function({%= name %}){
-      {%= name %}.init();
-    })
-  </script>
-</body>
+	<head>
+		<meta charset="utf8"/>
+		<link rel="stylesheet" type="text/css" href="http://style.c.aliimg.com/{%= appname %}/css/test.css">
+		<script src="http://style.c.aliimg.com/m/lofty/port/lofty.js"></script>
+		<script src="http://style.c.aliimg.com/m/lofty/gallery/appframework/af.js"></script>
+		<!-- 用于开发调试 -->
+		<script src="http://style.c.aliimg.com/{%= appname %}/app.config.js"></script>
+	</head>
+	<body>
+		<div id="content"></div>
+
+		<!-- 入门js -->
+		<script src="http://style.c.aliimg.com/{%= appname %}/js/test.js"></script>
+	</body>
 </html>

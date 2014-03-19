@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('http://style.c.aliimg.com/{%= appname %}/iconfont/iconfont.eot');
+  src: url('http://style.c.aliimg.com/{%= appname %}/iconfont/iconfont.eot?#iefix') format('embedded-opentype'), 
+  /* IE6-IE8 */ 
+  url('http://style.c.aliimg.com/{%= appname %}/iconfont/iconfont.woff') format('woff'), 
+  /* chrome��firefox */ url('http://style.c.aliimg.com/{%= appname %}/iconfont/iconfont.ttf') format('truetype'), 
+  /* chrome��firefox��opera��Safari, Android, iOS 4.2+*/ 
+  url('http://style.c.aliimg.com/{%= appname %}/iconfont/iconfont.svg#iconfont') format('svg');
+  
+  /* IE9*/
+  /* iOS 4.1- */
+}
+body .iconfont {
+  font-family: "iconfont";
+  font-size: 16px;
+  font-style: normal;
+}
+body li {
+  color: green;
+}
